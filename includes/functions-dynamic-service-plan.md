@@ -12,8 +12,8 @@ If your code requires more memory than the selected size, the function app insta
 
 ### Scaling
 
-The Azure Functions platform will evaluate the traffic needs, based on the configured triggers, to decide when to scale up or down. 
-The granularity of scaling is the function app. Scaling up in this case means adding more instances of a function app. Inversely as traffic goes down, function app instances are disabled- eventually scaling down to zero when none are running.  
+The Azure Functions platform will evaluate the traffic needs, based on the configured triggers, to decide when to scale out or in. 
+The granularity of scaling is the function app. Scaling out in this case means adding more instances of a function app. Inversely as traffic goes down, function app instances are disabled- eventually scaling in to zero when none are running.  
 
 ### Resource consumption and billing
 
